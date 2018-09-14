@@ -17,7 +17,7 @@ end
 end
 
 def find_the_cheese(array)
-  if array != cheese_types
+  if array == no_cheese
     nil
   else cheese_types.include?(cheddar)
     [0]
